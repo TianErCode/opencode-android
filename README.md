@@ -75,9 +75,11 @@ signed APK published in Releases.
   [`update.json`](https://github.com/TianErCode/opencode-android/blob/main/update.json),
   downloads the APK, verifies its SHA-256 and size, and hands it to the Android
   system installer. Android still asks the user to confirm the install.
-- Some OEM battery managers freeze background apps aggressively; allow
-  unrestricted background behavior for the app if you want long-running tasks to
-  continue while another app is in the foreground.
+- The local engine stays resident through its foreground service. It does not
+  hold a CPU wake lock while merely ready: real work keeps the CPU busy or is
+  woken by its own I/O, and an idle phone is allowed to suspend. Automatic idle
+  shutdown is off by default; use the Stop action on the notification to stop
+  the engine explicitly.
 - The engine runs in a single-user PRoot sandbox. Android permission checks and
   POSIX ownership inside the guest are not security boundaries; do not use the
   guest as a security isolation layer.
@@ -88,4 +90,3 @@ The Android host layer in this repository is MIT licensed; see [LICENSE](LICENSE
 The official OpenCode renderer and engine are separate upstream works, are not
 included in this repository, and remain under the upstream MIT license. See
 [NOTICE](NOTICE) for attribution details.
-

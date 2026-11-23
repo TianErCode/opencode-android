@@ -115,7 +115,7 @@ val bundledOpenCodeVersion: String =
             ?.get(1)
             ?: error("local-runtime-manifest.json has no openCodeVersion")
     }
-val shellVersionName = "1.4.5"
+val shellVersionName = "1.4.6"
 
 android {
     namespace = "com.tianercode.opencode"
@@ -131,7 +131,7 @@ android {
         applicationId = "com.tianercode.opencode"
         minSdk = 29
         targetSdk = 35
-        versionCode = 72
+        versionCode = 73
         versionName = "$shellVersionName+oc$bundledOpenCodeVersion"
 
         

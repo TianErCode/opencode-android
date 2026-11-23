@@ -119,8 +119,14 @@ class SecureSettingsRepository(context: Context) {
 
     
 
+    
+
+
+
+
+
     var localRuntimeIdleStopEnabled: Boolean
-        get() = preferences.getBoolean(KEY_LOCAL_RUNTIME_IDLE_STOP_ENABLED, true)
+        get() = preferences.getBoolean(KEY_LOCAL_RUNTIME_IDLE_STOP_ENABLED, false)
         set(value) = preferences.edit().putBoolean(KEY_LOCAL_RUNTIME_IDLE_STOP_ENABLED, value).apply()
 
     

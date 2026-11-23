@@ -111,20 +111,16 @@ internal fun localRuntimeInstallAgents(ids: Array<String>?): Set<LocalAgent> =
 
 
 
-
-
-
-
 internal fun localRuntimeNeedsWakeLock(
     status: LocalRuntimeStatus,
-    hasActiveWork: Boolean,
+    @Suppress("UNUSED_PARAMETER") hasActiveWork: Boolean,
 ): Boolean =
     when (status) {
         is LocalRuntimeStatus.Installing,
         is LocalRuntimeStatus.Starting,
         is LocalRuntimeStatus.Updating,
         -> true
-        is LocalRuntimeStatus.Ready -> hasActiveWork
+        is LocalRuntimeStatus.Ready -> false
         LocalRuntimeStatus.NotInstalled,
         is LocalRuntimeStatus.Stopped,
         is LocalRuntimeStatus.Broken,

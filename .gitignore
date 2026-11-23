@@ -1,0 +1,27 @@
+# Build outputs
+andcode/.gradle/
+andcode/build/
+andcode/app/build/
+andcode/**/build/
+andcode/.idea/
+andcode/*.iml
+andcode/local.properties
+andcode/captures/
+andcode/.externalNativeBuild/
+andcode/.cxx/
+andcode/.kotlin/
+andcode/.worktree/
+andcode/__pycache__/
+andcode/**/__pycache__/
+andcode/*.apk
+andcode/*.aab
+andcode/*.keystore
+andcode/*.jks
+andcode/*.hprof
+andcode/.env
+andcode/.DS_Store
+
+# Bundled official assets are not redistributed here. docs/BUILDING.md explains
+# how a local build obtains them.
+andcode/app/src/main/assets/desktop-web/
+andcode/app/src/*/assets/runtime/

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">OpenCode</string>
+
+
+
+    <string name="stop_run">Stop</string>
+
+
+
+
+
+
+    <string name="capability_version">OpenCode %1$s</string>
+
+
+
+    <string name="unsupported_abi">Unsupported ABI: %1$s</string>
+
+
+
+    <string name="local_runtime_screen_title">Local runtime</string>
+    <string name="adb_requires_android_11">Requires Android 11 or later</string>
+    <string name="runtime_status_not_installed">Not installed</string>
+
+
+
+
+
+    <string name="notification_runtime_not_installed">Local runtime is not installed</string>
+    <string name="notification_runtime_awaiting_permission">Waiting for file access</string>
+    <string name="notification_runtime_setting_up">Setting up local runtime</string>
+    <string name="notification_runtime_starting">Starting local runtime</string>
+    <string name="notification_runtime_updating">Updating local runtime</string>
+    <string name="notification_runtime_stopped">Local runtime is stopped</string>
+    <string name="notification_runtime_ready">Local runtime is running</string>
+    <string name="notification_runtime_ready_detail">OpenCode %1$s · 127.0.0.1:%2$d</string>
+    <string name="notification_runtime_broken">Local runtime has a problem</string>
+    <string name="notification_runtime_unsupported_device">Not available on this device</string>
+    <string name="notification_channel_local_runtime_description">Status of the local runtime on this Android device</string>
+
+    <string name="install_step_preparing_command_env">Preparing the Android command environment</string>
+    <string name="install_step_preparing_alpine">Preparing Alpine Linux</string>
+    <string name="install_step_preparing_opencode">Preparing OpenCode</string>
+    <string name="install_step_extracting_linux_env">Extracting the Linux environment</string>
+    <string name="install_step_extracting_opencode">Extracting OpenCode</string>
+    <string name="install_step_installing_dev_tools">Installing Git and development tools</string>
+    <string name="install_step_activating_runtime">Activating the runtime</string>
+    <string name="install_step_done">Local runtime installed</string>
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+    
+
+    
+
+    
+
+    
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <string name="runtime_error_install_failed">Could not install the local runtime</string>
+    <string name="runtime_error_reinstall_failed">Could not reinstall the local runtime</string>
+    <string name="runtime_error_start_failed">Could not start local runtime</string>
+    <string name="runtime_error_stop_failed">Could not stop local runtime</string>
+    <string name="runtime_error_delete_failed">Could not delete the local runtime</string>
+    <string name="runtime_error_delete_incomplete">The local runtime could not be fully deleted</string>
+    <string name="runtime_error_missing_files">Local runtime files are missing</string>
+    <string name="runtime_error_update_check_failed">Could not check for OpenCode updates</string>
+    <string name="runtime_error_update_prepare_failed">Could not prepare the OpenCode update</string>
+    <string name="runtime_error_rollback_check_failed">Could not determine a version to revert to</string>
+    <string name="runtime_error_restore_failed">Could not restore the OpenCode runtime</string>
+    <string name="runtime_error_start_after_update_failed">Could not start OpenCode after the update</string>
+    <string name="runtime_error_start_after_rollback_failed">Could not start OpenCode after reverting</string>
+    <string name="runtime_error_command_timed_out">The check timed out</string>
+    <string name="runtime_error_restored_but_cannot_start">Restored OpenCode %1$s but it will not start: %2$s</string>
+    <string name="runtime_step_preparing_update">Preparing the update</string>
+    <string name="runtime_step_rolling_back_to">Reverting to OpenCode %1$s</string>
+    <string name="runtime_status_stopped_reason">The local runtime is stopped</string>
+    <string name="runtime_status_connecting_reason">Connecting to the local runtime</string>
+    <string name="runtime_connection_unhealthy">The local OpenCode runtime is unhealthy</string>
+    <string name="runtime_connection_failed">Could not connect to local OpenCode</string>
+    <string name="runtime_update_insufficient_space">Not enough free space for the update: %1$d bytes required, %2$d bytes available</string>
+    <string name="runtime_step_downloading_opencode">Downloading OpenCode %1$s</string>
+    <string name="runtime_step_extracting_update">Extracting the update</string>
+    <string name="runtime_step_verifying_update">Verifying the update candidate</string>
+    <string name="runtime_step_update_candidate_ready">Update candidate is ready</string>
+    <string name="adb_service_unavailable">Wireless debugging service is unavailable</string>
+    <string name="adb_discovery_failed">Could not start discovery</string>
+    <string name="adb_discovery_start_failed">Could not start discovery (code %1$d)</string>
+    <string name="adb_pair_failed">Pairing failed</string>
+    <string name="adb_connect_failed">Connection failed</string>
+
+    
+
+    
+
+
+
+
+
+    <string name="install_step_installing_runtime_tools">Installing required runtime tools</string>
+    
+
+
+    <string name="install_unit_packages">packages</string>
+    <string name="install_step_choosing_source">Finding the fastest download source (%1$d/%2$d)</string>
+    <string name="install_step_fetching_package_index">Fetching the package index</string>
+    <string name="install_step_resolving_packages">Resolving packages</string>
+    <string name="install_step_needing_storage_permission">Grant access to your files to start OpenCode</string>
+    <string name="back_again_to_exit">Press back again to exit</string>
+</resources>

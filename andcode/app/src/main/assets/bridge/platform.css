@@ -1,0 +1,163 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-height: 900px) {
+  html body [data-component="dialog-v2"] [data-slot="dialog-container"] [data-slot="dialog-content"] [data-slot="dialog-body"] {
+    overflow-y: auto;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (pointer: coarse) {
+  html body [data-component="tabs"] a[href],
+  html body [data-component="tabs"] button,
+  html body [data-component="tabs-v2"] a[href],
+  html body [data-component="tabs-v2"] button,
+  html body [data-component="dialog-v2"] [data-slot="dialog-body"] a[href],
+  html body [data-component="dialog-v2"] [data-slot="dialog-body"] button {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin-top: -3px;
+    margin-bottom: -3px;
+  }
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  html body [data-slot="switch-control"] {
+    position: relative;
+  }
+  html body [data-slot="switch-control"]::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -4px;
+    bottom: -4px;
+  }
+}

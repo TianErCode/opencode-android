@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<resources>
+    
+    <color name="oc_background">#FAFAFA</color>
+
+    
+
+
+
+
+
+
+
+
+
+    <color name="oc_page_canvas_light">#FAFAFA</color>
+    <color name="oc_page_canvas_dark">#080808</color>
+
+    
+    <color name="oc_text_primary">#161616</color>
+    
+    <color name="oc_text_secondary">#5C5C5C</color>
+    
+    <color name="oc_text_danger">#B82D35</color>
+
+    
+    <color name="oc_icon_base">#8F8F8F</color>
+    <color name="oc_icon_strong">#171717</color>
+
+    
+    <color name="oc_border_base">#1A000000</color>
+
+    
+    <color name="oc_button_primary_bg">#242424</color>
+    <color name="oc_button_primary_text">#FFFFFF</color>
+    
+    <color name="oc_button_secondary_bg">#FFFFFF</color>
+    <color name="oc_button_secondary_text">#161616</color>
+
+    
+    <color name="oc_ripple">#1A000000</color>
+    
+    <color name="oc_ripple_primary">#3DFFFFFF</color>
+</resources>

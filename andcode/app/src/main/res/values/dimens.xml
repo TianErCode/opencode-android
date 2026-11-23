@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+
+
+
+
+
+
+
+
+<resources>
+    <dimen name="oc_space_1">4dp</dimen>
+    <dimen name="oc_space_2">8dp</dimen>
+    <dimen name="oc_space_3">12dp</dimen>
+    <dimen name="oc_space_4">16dp</dimen>
+    <dimen name="oc_space_6">24dp</dimen>
+    <dimen name="oc_space_8">32dp</dimen>
+
+    <dimen name="oc_radius_sm">4dp</dimen>
+    <dimen name="oc_radius_md">6dp</dimen>
+
+    <dimen name="oc_text_small">13sp</dimen>
+    <dimen name="oc_text_base">14sp</dimen>
+    <dimen name="oc_text_large">16sp</dimen>
+
+    
+    <dimen name="oc_touch_target">48dp</dimen>
+
+    
+    <dimen name="oc_logo_width">64dp</dimen>
+    <dimen name="oc_logo_height">80dp</dimen>
+</resources>

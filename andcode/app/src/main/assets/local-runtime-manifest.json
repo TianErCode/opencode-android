@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "runtimeVersion": "2026.10.27.5",
+  "openCodeVersion": "2.3.0",
+  "alpineVersion": "3.24.1",
+  "port": 4097,
+  "architectures": {
+    "arm64-v8a": {
+      "alpineUrl": "https://dl-cdn.alpinelinux.org/alpine/v3.24/releases/aarch64/alpine-minirootfs-3.24.1-aarch64.tar.gz",
+      "alpineSha256": "f55a90f69052c5bd6f92cb09a8f47065970830b194c917a006fb94028e721259",
+      "openCodeUrl": "https://opencode.ai/files/bin/2.3.0/opencode-linux-arm64-musl.tar.gz",
+      "openCodeSha256": "a0c7a2cbde0f888fe784e31170332f738db1f110509dc3981f5a2760c6323c40",
+      "alpineUrls": [
+        "https://mirrors.ustc.edu.cn/alpine/v3.24/releases/aarch64/alpine-minirootfs-3.24.1-aarch64.tar.gz",
+        "https://mirror.nju.edu.cn/alpine/v3.24/releases/aarch64/alpine-minirootfs-3.24.1-aarch64.tar.gz",
+        "https://mirrors.huaweicloud.com/alpine/v3.24/releases/aarch64/alpine-minirootfs-3.24.1-aarch64.tar.gz",
+        "https://mirrors.cloud.tencent.com/alpine/v3.24/releases/aarch64/alpine-minirootfs-3.24.1-aarch64.tar.gz",
+        "https://mirrors.aliyun.com/alpine/v3.24/releases/aarch64/alpine-minirootfs-3.24.1-aarch64.tar.gz"
+      ],
+      "openCodeUrls": []
+    },
+    "x86_64": {
+      "alpineUrl": "https://dl-cdn.alpinelinux.org/alpine/v3.24/releases/x86_64/alpine-minirootfs-3.24.1-x86_64.tar.gz",
+      "alpineSha256": "41f73e3cf5fa919b8aa5ca6b30dc48f0da2720776d7423e2a7748211456fe081",
+      "openCodeUrl": "https://opencode.ai/files/bin/2.3.0/opencode-linux-x64-musl.tar.gz",
+      "openCodeSha256": "dcefa5e90cbd3dc37f7d9741854854021b4b4d495644a6c2bfaf5b0c1634c986",
+      "alpineUrls": [
+        "https://mirrors.ustc.edu.cn/alpine/v3.24/releases/x86_64/alpine-minirootfs-3.24.1-x86_64.tar.gz",
+        "https://mirror.nju.edu.cn/alpine/v3.24/releases/x86_64/alpine-minirootfs-3.24.1-x86_64.tar.gz",
+        "https://mirrors.huaweicloud.com/alpine/v3.24/releases/x86_64/alpine-minirootfs-3.24.1-x86_64.tar.gz",
+        "https://mirrors.cloud.tencent.com/alpine/v3.24/releases/x86_64/alpine-minirootfs-3.24.1-x86_64.tar.gz",
+        "https://mirrors.aliyun.com/alpine/v3.24/releases/x86_64/alpine-minirootfs-3.24.1-x86_64.tar.gz"
+      ],
+      "openCodeUrls": []
+    }
+  }
+}

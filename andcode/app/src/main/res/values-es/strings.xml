@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">OpenCode</string>
+
+
+
+    <string name="stop_run">Detener</string>
+
+
+
+
+
+
+    <string name="capability_version">OpenCode %1$s</string>
+
+
+
+    <string name="unsupported_abi">ABI no compatible: %1$s</string>
+
+
+
+    <string name="local_runtime_screen_title">OpenCode local</string>
+    <string name="adb_requires_android_11">Requiere Android 11 o posterior</string>
+    <string name="runtime_status_not_installed">No instalado</string>
+
+
+
+
+
+    <string name="notification_runtime_not_installed">El entorno de ejecución local no está instalado</string>
+    <string name="notification_runtime_setting_up">Configurando OpenCode local</string>
+    <string name="notification_runtime_starting">Iniciando OpenCode local</string>
+    <string name="notification_runtime_updating">Actualizando OpenCode local</string>
+    <string name="notification_runtime_stopped">OpenCode local está detenido</string>
+    <string name="notification_runtime_ready">OpenCode local está en ejecución</string>
+    <string name="notification_runtime_ready_detail">OpenCode %1$s · 127.0.0.1:%2$d</string>
+    <string name="notification_runtime_broken">OpenCode local tiene un problema</string>
+    <string name="notification_runtime_unsupported_device">No disponible en este dispositivo</string>
+    <string name="notification_channel_local_runtime_description">Estado de OpenCode ejecutándose en este dispositivo Android</string>
+
+    <string name="install_step_preparing_command_env">Preparando el entorno de comandos de Android</string>
+
+    <string name="install_step_extracting_linux_env">Extrayendo el entorno Linux</string>
+    <string name="install_step_extracting_opencode">Extrayendo OpenCode</string>
+    <string name="install_step_installing_dev_tools">Instalando Git y herramientas de desarrollo</string>
+    <string name="install_step_activating_runtime">Activando el entorno de ejecución</string>
+    <string name="install_step_done">OpenCode local instalado</string>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+    
+    <string name="runtime_error_install_failed">No se pudo instalar el entorno local</string>
+    <string name="runtime_error_reinstall_failed">No se pudo reinstalar el entorno local</string>
+    <string name="runtime_error_start_failed">No se pudo iniciar OpenCode local</string>
+    <string name="runtime_error_stop_failed">No se pudo detener OpenCode local</string>
+    <string name="runtime_error_delete_failed">No se pudo eliminar el entorno local</string>
+    <string name="runtime_error_delete_incomplete">El entorno local no se eliminó por completo</string>
+    <string name="runtime_error_missing_files">Faltan archivos del entorno local</string>
+    <string name="runtime_error_update_check_failed">No se pudo comprobar si hay actualizaciones de OpenCode</string>
+    <string name="runtime_error_update_prepare_failed">No se pudo preparar la actualización de OpenCode</string>
+    <string name="runtime_error_rollback_check_failed">No se pudo determinar una versión a la que volver</string>
+    <string name="runtime_error_restore_failed">No se pudo restaurar el entorno de OpenCode</string>
+    <string name="runtime_error_start_after_update_failed">No se pudo iniciar OpenCode tras la actualización</string>
+    <string name="runtime_error_start_after_rollback_failed">No se pudo iniciar OpenCode tras volver atrás</string>
+    <string name="runtime_error_command_timed_out">La comprobación superó el tiempo límite</string>
+    <string name="runtime_error_restored_but_cannot_start">Se restauró OpenCode %1$s pero no arranca: %2$s</string>
+    <string name="runtime_step_preparing_update">Preparando la actualización</string>
+    <string name="runtime_step_rolling_back_to">Volviendo a OpenCode %1$s</string>
+    <string name="runtime_status_stopped_reason">El entorno local está detenido</string>
+    <string name="runtime_status_connecting_reason">Conectando con el entorno local</string>
+
+    <string name="runtime_connection_unhealthy">El entorno local de OpenCode no funciona correctamente</string>
+    <string name="runtime_connection_failed">No se pudo conectar a OpenCode local</string>
+    <string name="runtime_update_insufficient_space">No hay suficiente espacio libre para la actualización: se necesitan %1$d bytes y hay %2$d disponibles</string>
+    <string name="runtime_step_downloading_opencode">Descargando OpenCode %1$s</string>
+    <string name="runtime_step_extracting_update">Extrayendo la actualización</string>
+    <string name="runtime_step_verifying_update">Verificando el candidato de actualización</string>
+    <string name="runtime_step_update_candidate_ready">El candidato de actualización está listo</string>
+    <string name="adb_service_unavailable">El servicio de depuración inalámbrica no está disponible</string>
+    <string name="adb_discovery_failed">No se pudo iniciar la búsqueda</string>
+    <string name="adb_discovery_start_failed">No se pudo iniciar la búsqueda (código %1$d)</string>
+    <string name="adb_pair_failed">No se pudo emparejar</string>
+    <string name="adb_connect_failed">No se pudo conectar</string>
+    <string name="install_step_installing_runtime_tools">Instalando herramientas necesarias</string>
+    <string name="install_unit_packages">paquetes</string>
+    <string name="install_step_choosing_source">Buscando la fuente de descarga más rápida (%1$d/%2$d)</string>
+    <string name="install_step_fetching_package_index">Obteniendo el índice de paquetes</string>
+    <string name="install_step_resolving_packages">Resolviendo los paquetes</string>
+    <string name="back_again_to_exit">Pulsa atrás otra vez para salir</string>
+</resources>

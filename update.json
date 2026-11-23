@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "openCodeVersion": "2.3.0",
+  "versionCode": 72,
+  "versionName": "1.4.5+oc2.3.0",
+  "apkUrl": "https://github.com/TianErCode/opencode-android/releases/download/v1.4.5/OpenCode-Android-1.4.5-oc2.3.0-arm64-v8a.apk",
+  "apkSha256": "cc39b592193968e74d402f77250ef4bc21992f0a624aa651ede8ef9d427d47c2",
+  "apkSizeBytes": 273177518
+}

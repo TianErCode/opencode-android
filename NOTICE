@@ -1,0 +1,64 @@
+NOTICE
+======
+
+OpenCode for Android
+An Android runtime that runs the official OpenCode desktop application unmodified.
+
+
+WHAT THIS IS
+------------
+
+This is not a mobile version of OpenCode, and nothing in OpenCode's interface has been
+rewritten, reskinned, renamed, or re-iconed.
+
+The desktop application's interface and engine are loaded and run **as published by their
+authors**. The renderer's files are byte-identical to the official build. What this project
+provides is the host layer around them - a GeckoView session to render into, a local server
+that serves the bundled files, a proxy for the engine's API and terminal socket, bridge
+scripts that supply the host capabilities the desktop app expects, and Android permission
+and lifecycle handling.
+
+That layer sits outside the official program, not inside it. Nothing in the official build
+was patched to make this work.
+
+This project is unofficial and is not affiliated with, sponsored by, or endorsed by
+OpenCode or Anomaly.
+
+
+COPYRIGHT AND LICENSING
+-----------------------
+
+1. OpenCode - interface, renderer and engine
+   Copyright (c) 2025 opencode
+   https://opencode.ai
+   Licensed under the MIT License. Bundled unmodified from the official build.
+
+2. The Android host layer
+   Copyright (c) 2026 OpenCode for Android contributors
+   Licensed under the MIT License.
+
+The full text of the MIT License is in the LICENSE file, and applies to both of the above.
+
+
+TRADEMARKS AND BRANDING
+-----------------------
+
+"OpenCode" and the OpenCode logo are the property of their owners. No trademark rights are
+granted by the MIT License. This project uses the name and icon solely to identify the
+application it runs, because that application is genuinely OpenCode and its authors' credit
+belongs to them.
+
+See https://opencode.ai/brand for the project's official brand guidelines.
+
+
+THIRD-PARTY COMPONENTS
+----------------------
+
+This distribution additionally contains, unmodified:
+
+  * GeckoView - Mozilla Public License 2.0 - https://hg.mozilla.org/mozilla-central
+  * Alpine Linux userland - various free software licenses - https://alpinelinux.org
+  * PRoot - GPL v2 - https://proot-me.github.io
+  * The packages in the bundled Alpine repository, each under its own license
+
+Their licenses are unaffected by this NOTICE and remain in force.

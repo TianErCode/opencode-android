@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+
+
+
+<resources>
+    
+
+    <color name="oc_background">#080808</color>
+
+    
+    <color name="oc_text_primary">#FAFAFA</color>
+    
+    <color name="oc_text_secondary">#AEAEAE</color>
+    
+    <color name="oc_text_danger">#F17471</color>
+
+    
+    <color name="oc_icon_base">#7E7E7E</color>
+    <color name="oc_icon_strong">#EDEDED</color>
+
+    
+    <color name="oc_border_base">#1AFFFFFF</color>
+
+    
+    <color name="oc_button_primary_bg">#5C5C5C</color>
+    <color name="oc_button_primary_text">#FFFFFF</color>
+    
+    <color name="oc_button_secondary_bg">#0FFFFFFF</color>
+    <color name="oc_button_secondary_text">#FAFAFA</color>
+
+    
+    <color name="oc_ripple">#1AFFFFFF</color>
+    
+    <color name="oc_ripple_primary">#3D000000</color>
+</resources>
